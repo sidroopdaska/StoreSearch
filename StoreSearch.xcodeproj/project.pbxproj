@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		1F26D5A81BC9745100C69B9B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F26D5A71BC9745100C69B9B /* AppDelegate.swift */; };
-		1F26D5AA1BC9745100C69B9B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F26D5A91BC9745100C69B9B /* ViewController.swift */; };
+		1F26D5AA1BC9745100C69B9B /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F26D5A91BC9745100C69B9B /* SearchViewController.swift */; };
 		1F26D5AD1BC9745100C69B9B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F26D5AB1BC9745100C69B9B /* Main.storyboard */; };
 		1F26D5AF1BC9745100C69B9B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F26D5AE1BC9745100C69B9B /* Assets.xcassets */; };
 		1F26D5B21BC9745100C69B9B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F26D5B01BC9745100C69B9B /* LaunchScreen.storyboard */; };
@@ -17,7 +17,7 @@
 /* Begin PBXFileReference section */
 		1F26D5A41BC9745100C69B9B /* StoreSearch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StoreSearch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1F26D5A71BC9745100C69B9B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		1F26D5A91BC9745100C69B9B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1F26D5A91BC9745100C69B9B /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
 		1F26D5AC1BC9745100C69B9B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1F26D5AE1BC9745100C69B9B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1F26D5B11BC9745100C69B9B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -55,7 +55,7 @@
 			isa = PBXGroup;
 			children = (
 				1F26D5A71BC9745100C69B9B /* AppDelegate.swift */,
-				1F26D5A91BC9745100C69B9B /* ViewController.swift */,
+				1F26D5A91BC9745100C69B9B /* SearchViewController.swift */,
 				1F26D5AB1BC9745100C69B9B /* Main.storyboard */,
 				1F26D5AE1BC9745100C69B9B /* Assets.xcassets */,
 				1F26D5B01BC9745100C69B9B /* LaunchScreen.storyboard */,
@@ -95,6 +95,7 @@
 				TargetAttributes = {
 					1F26D5A31BC9745100C69B9B = {
 						CreatedOnToolsVersion = 7.0.1;
+						DevelopmentTeam = A9GQJZZAR8;
 					};
 				};
 			};
@@ -134,7 +135,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1F26D5AA1BC9745100C69B9B /* ViewController.swift in Sources */,
+				1F26D5AA1BC9745100C69B9B /* SearchViewController.swift in Sources */,
 				1F26D5A81BC9745100C69B9B /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -246,6 +247,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = StoreSearch/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Sid.StoreSearch;
@@ -257,6 +259,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = StoreSearch/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Sid.StoreSearch;
